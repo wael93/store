@@ -86,6 +86,9 @@ module.exports = {
    */
   setupFilesAfterEnv: ['<rootDir>/setupJest.ts'],
 
+  /**
+   * The glob patterns Jest uses to detect test files.
+   */
   testMatch: ['<rootDir>/packages/**/**/*.spec.ts'],
 
   /**
