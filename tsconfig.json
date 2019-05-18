@@ -5,11 +5,11 @@
     "outDir": "out-tsc/lib",
     "paths": {
       "@integration/*": ["integration/app/*"],
-      "@integration/env/*": ["integration/environments/*"],
       "@ngxs/store/operators": ["packages/store/operators/src"],
       "@ngxs/store/internals": ["packages/store/internals/src"],
       "@ngxs/*": ["packages/*"]
     },
+    "allowJs": true,
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -23,8 +23,5 @@
     "lib": ["es2017", "dom"],
     "typeRoots": ["node_modules/@types"]
   },
-  "exclude": [
-    "@ngxs/**",
-    "integrations/**"
-  ]
+  "exclude": ["@ngxs/**", "integrations/**"]
 }

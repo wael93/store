@@ -4,8 +4,7 @@
     "baseUrl": "./",
     "paths": {
       "@ngxs/*": ["../@ngxs/*"],
-      "@integration/*": ["./app/*"],
-      "@integration/env/*": ["./environments/*"]
+      "@integration/*": ["./app/*"]
     },
     "outDir": "./out-tsc/app",
     "module": "es2015",
